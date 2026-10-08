@@ -1,13 +1,20 @@
-import clsx from "clsx";
-import useMacbookStore from "../store"
 
+import useMacbookStore from "../store"
+import clsx from "clsx";
 import { Canvas } from "@react-three/fiber";
 import { Box, OrbitControls } from "@react-three/drei";
-import MacBookModel14 from "./models/Macbook-14";
-import StudioLight from "./StudioLight";
+import MacBookModel14 from "./models/Macbook-14.jsx";
+
+import StudioLight from "./three/StudioLight.jsx";
+
+
 
 const ProductViewer = () => {
     const { color,scale,setColor,setScale } = useMacbookStore();
+
+    
+
+
   return (
     <section id="product-viewer">
         <h2>Take a Closer Look.</h2>
@@ -52,10 +59,14 @@ const ProductViewer = () => {
         </div>
 
         <Canvas id="canvas" camera={{ position: [0,2,5],fov: 50,near: 0.1, far: 100}}>
+            
             <StudioLight></StudioLight>
             <MacBookModel14 scale = {0.06} position={[0, 0, 0]} />
+            
 
-            <OrbitControls enableZoom = {false} />
+            <OrbitControls enableZoom={false} enablePan={false}  />
+
+            
         </Canvas>
 
     </section>
