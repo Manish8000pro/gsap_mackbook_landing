@@ -9,7 +9,7 @@ const ANIMATION_DURATION = 1; // Duration of the animation in seconds
 const OFFSET_DISTANCE = 5; // Distance to offset the model when switching
 
 const fadeMeshes = (group, opacity) => {
-    if(!group) return;
+    if(!group) return; 
 
     group.traverse((child) => {
         if (child.isMesh) {
