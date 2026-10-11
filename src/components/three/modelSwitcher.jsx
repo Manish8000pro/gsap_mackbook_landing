@@ -3,7 +3,7 @@ import { PresentationControls } from "@react-three/drei";
 import { gsap } from "gsap";
 import MacBookModel16 from "../models/Macbook-16.jsx";
 import MacBookModel14 from "../models/Macbook-14";
-import { useGSAP } from "@gsap/react";
+import { useGSAP } from "@gsap/react"; 
 
 const ANIMATION_DURATION = 1; // Duration of the animation in seconds
 const OFFSET_DISTANCE = 5; // Distance to offset the model when switching
