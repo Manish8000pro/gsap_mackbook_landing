@@ -1,5 +1,5 @@
 import { useMediaQuery } from "react-responsive";
-
+ 
 const Showcase = () => {
     const isTablet = useMediaQuery({ query: "(max-width: 1024px)" }); 
     
