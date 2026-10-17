@@ -5,7 +5,7 @@ const Showcase = () => {
 
     useGsap(()=>{
         if(!isTablet) {
-            const timeline = gsap.timeline()
+            const timeline = gsap.timeline({})
         }
     },[isTablet])
     
