@@ -1,7 +1,13 @@
 import { useMediaQuery } from "react-responsive";
- 
+import gsap from "gsap";
 const Showcase = () => {
     const isTablet = useMediaQuery({ query: "(max-width: 1024px)" }); 
+
+    useGsap(()=>{
+        if(!isTablet) {
+            const timeline = gsap.timeline()
+        }
+    },[isTablet])
     
   return (
     <section id="showcase">
