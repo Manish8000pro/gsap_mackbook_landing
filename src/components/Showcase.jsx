@@ -7,7 +7,7 @@ const Showcase = () => {
         if(!isTablet) {
             const timeline = gsap.timeline({
                 scrollTrigger: {
-                    
+                    trigger: "#showcase",
                 }
             })
         }
