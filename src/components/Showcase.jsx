@@ -44,7 +44,7 @@ const Showcase = () => {
                                 <span className="text-white">
                                     M4, the next generation of Apple silicon
                                 </span>
-                                . M4 powers
+                                . M4 powers 
                             </p>
                             <p>
                                 It drives Apple Intelligence on iPad Pro, so you can write, create, and accomplish more with ease. All in a design that’s unbelievably thin, light, and powerful.
