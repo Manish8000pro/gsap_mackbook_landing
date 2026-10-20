@@ -57,7 +57,7 @@ const Showcase = () => {
                     </div>
 
                     <div className="max-w-3xs space-y-14">
-                        <div className="space-y-2">
+                        <div className="space-y-2"> 
                             <p>Up to</p>
                             <h3>4x faster</h3>
                             <p>pro rendering performance than M2</p>
