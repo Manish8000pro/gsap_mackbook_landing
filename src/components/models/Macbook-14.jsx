@@ -20,7 +20,7 @@ export default function MacBookModel14(props) {
 
   const { nodes, materials,scene } = useGLTF('/models/macbook-14-transformed.glb');
   
-  const texture = useTexture('/screen.png');
+  const texture = useTexture('/screen.png'); 
 
   useEffect(() => {
     scene.traverse((child) => {
