@@ -2,7 +2,7 @@
 const Performance = () => {
   return (
     <div>
-      <Performance></Performance>
+      Performance
     </div>
   )
 }
