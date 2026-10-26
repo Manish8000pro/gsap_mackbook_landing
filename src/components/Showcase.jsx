@@ -1,9 +1,11 @@
 import { useMediaQuery } from "react-responsive";
 import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 const Showcase = () => {
     const isTablet = useMediaQuery({ query: "(max-width: 1024px)" }); 
 
-    useGsap(()=>{
+    useGSAP(()=>{
         if(!isTablet) {
             const timeline = gsap.timeline({
                 scrollTrigger: {
