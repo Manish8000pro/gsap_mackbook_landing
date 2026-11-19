@@ -44,7 +44,7 @@ const ModelScroll = () => {
             }
         });
 
-        // SYNC THE FEATURE CONTENT
+        // SYNC THE FEATURE CONTENT 
         const timeline = gsap.timeline({
             scrollTrigger: {
                 trigger: '#f-canvas',
