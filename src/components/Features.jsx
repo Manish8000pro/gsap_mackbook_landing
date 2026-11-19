@@ -31,7 +31,7 @@ const ModelScroll = () => {
             v.load();
         })
     }, []);
-
+ 
     useGSAP(() => {
         // 3D MODEL ROTATION ANIMATION
         const modelTimeline = gsap.timeline({
